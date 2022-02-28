@@ -1,0 +1,39 @@
+{
+	"id": "1a89a678-6f29-4e64-83cd-c2cc9670d615",
+	"values": [
+		{
+			"key": "local",
+			"value": "http://localhost:3000",
+			"type": "default",
+			"enabled": true
+		},
+		{
+			"key": "token",
+			"value": "",
+			"type": "default",
+			"enabled": true
+		},
+		{
+			"key": "lastCreatedId",
+			"value": "",
+			"type": "default",
+			"enabled": true
+		},
+		{
+			"key": "newUser",
+			"value": "Fernando O. Cassel",
+			"type": "default",
+			"enabled": true
+		},
+		{
+			"key": "newEmail",
+			"value": "focassel@dominio.com.br",
+			"type": "default",
+			"enabled": true
+		}
+	],
+	"name": "Globals",
+	"_postman_variable_scope": "globals",
+	"_postman_exported_at": "2022-02-28T12:44:12.589Z",
+	"_postman_exported_using": "Postman/9.13.2"
+}

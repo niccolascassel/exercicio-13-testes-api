@@ -1,0 +1,994 @@
+{
+	"id": "2be9b7c0-7c9c-4441-9e0c-045ce6fc774c",
+	"name": "Exercício Módulo 13 - EBAC - QA",
+	"timestamp": "2022-02-28T12:53:53.867Z",
+	"collection_id": "11452283-ca7e6c42-7acf-4101-8e25-31b82d68d984",
+	"folder_id": 0,
+	"environment_id": "0",
+	"totalPass": 280,
+	"totalFail": 0,
+	"results": [
+		{
+			"id": "64a6ca37-de93-4227-8652-971aac61589c",
+			"name": "Login",
+			"time": 5,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {},
+			"testPassFailCounts": {},
+			"times": [
+				11,
+				7,
+				8,
+				6,
+				7,
+				10,
+				6,
+				7,
+				6,
+				7,
+				7,
+				6,
+				5,
+				6,
+				6,
+				6,
+				7,
+				7,
+				7,
+				5
+			],
+			"allTests": [
+				{},
+				{},
+				{},
+				{},
+				{},
+				{},
+				{},
+				{},
+				{},
+				{},
+				{},
+				{},
+				{},
+				{},
+				{},
+				{},
+				{},
+				{},
+				{},
+				{}
+			]
+		},
+		{
+			"id": "1b75c8c0-a4ef-4ccd-80d2-7280d80ce1e4",
+			"name": "Listar Usuários Cadatrados",
+			"time": 5,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Status code is 200": true,
+				"Verificar foi listado o usuário 'Níccolas Cassel'": true
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 20,
+					"fail": 0
+				},
+				"Verificar foi listado o usuário 'Níccolas Cassel'": {
+					"pass": 20,
+					"fail": 0
+				}
+			},
+			"times": [
+				7,
+				6,
+				6,
+				6,
+				7,
+				8,
+				7,
+				6,
+				8,
+				5,
+				7,
+				6,
+				6,
+				5,
+				6,
+				5,
+				6,
+				7,
+				5,
+				5
+			],
+			"allTests": [
+				{
+					"Status code is 200": true,
+					"Verificar foi listado o usuário 'Níccolas Cassel'": true
+				},
+				{
+					"Status code is 200": true,
+					"Verificar foi listado o usuário 'Níccolas Cassel'": true
+				},
+				{
+					"Status code is 200": true,
+					"Verificar foi listado o usuário 'Níccolas Cassel'": true
+				},
+				{
+					"Status code is 200": true,
+					"Verificar foi listado o usuário 'Níccolas Cassel'": true
+				},
+				{
+					"Status code is 200": true,
+					"Verificar foi listado o usuário 'Níccolas Cassel'": true
+				},
+				{
+					"Status code is 200": true,
+					"Verificar foi listado o usuário 'Níccolas Cassel'": true
+				},
+				{
+					"Status code is 200": true,
+					"Verificar foi listado o usuário 'Níccolas Cassel'": true
+				},
+				{
+					"Status code is 200": true,
+					"Verificar foi listado o usuário 'Níccolas Cassel'": true
+				},
+				{
+					"Status code is 200": true,
+					"Verificar foi listado o usuário 'Níccolas Cassel'": true
+				},
+				{
+					"Status code is 200": true,
+					"Verificar foi listado o usuário 'Níccolas Cassel'": true
+				},
+				{
+					"Status code is 200": true,
+					"Verificar foi listado o usuário 'Níccolas Cassel'": true
+				},
+				{
+					"Status code is 200": true,
+					"Verificar foi listado o usuário 'Níccolas Cassel'": true
+				},
+				{
+					"Status code is 200": true,
+					"Verificar foi listado o usuário 'Níccolas Cassel'": true
+				},
+				{
+					"Status code is 200": true,
+					"Verificar foi listado o usuário 'Níccolas Cassel'": true
+				},
+				{
+					"Status code is 200": true,
+					"Verificar foi listado o usuário 'Níccolas Cassel'": true
+				},
+				{
+					"Status code is 200": true,
+					"Verificar foi listado o usuário 'Níccolas Cassel'": true
+				},
+				{
+					"Status code is 200": true,
+					"Verificar foi listado o usuário 'Níccolas Cassel'": true
+				},
+				{
+					"Status code is 200": true,
+					"Verificar foi listado o usuário 'Níccolas Cassel'": true
+				},
+				{
+					"Status code is 200": true,
+					"Verificar foi listado o usuário 'Níccolas Cassel'": true
+				},
+				{
+					"Status code is 200": true,
+					"Verificar foi listado o usuário 'Níccolas Cassel'": true
+				}
+			]
+		},
+		{
+			"id": "33251caa-4707-4e9f-9adf-8f00e7a28238",
+			"name": "Cadastrar Usuário com Dados Corretos",
+			"time": 6,
+			"responseCode": {
+				"code": 201,
+				"name": "Created"
+			},
+			"tests": {
+				"Status code is 200": true,
+				"Verificar se o cadastro foi realizado com sucesso": true
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 20,
+					"fail": 0
+				},
+				"Verificar se o cadastro foi realizado com sucesso": {
+					"pass": 20,
+					"fail": 0
+				}
+			},
+			"times": [
+				9,
+				8,
+				8,
+				8,
+				29,
+				8,
+				8,
+				7,
+				7,
+				10,
+				10,
+				6,
+				7,
+				7,
+				7,
+				7,
+				6,
+				7,
+				8,
+				6
+			],
+			"allTests": [
+				{
+					"Status code is 200": true,
+					"Verificar se o cadastro foi realizado com sucesso": true
+				},
+				{
+					"Status code is 200": true,
+					"Verificar se o cadastro foi realizado com sucesso": true
+				},
+				{
+					"Status code is 200": true,
+					"Verificar se o cadastro foi realizado com sucesso": true
+				},
+				{
+					"Status code is 200": true,
+					"Verificar se o cadastro foi realizado com sucesso": true
+				},
+				{
+					"Status code is 200": true,
+					"Verificar se o cadastro foi realizado com sucesso": true
+				},
+				{
+					"Status code is 200": true,
+					"Verificar se o cadastro foi realizado com sucesso": true
+				},
+				{
+					"Status code is 200": true,
+					"Verificar se o cadastro foi realizado com sucesso": true
+				},
+				{
+					"Status code is 200": true,
+					"Verificar se o cadastro foi realizado com sucesso": true
+				},
+				{
+					"Status code is 200": true,
+					"Verificar se o cadastro foi realizado com sucesso": true
+				},
+				{
+					"Status code is 200": true,
+					"Verificar se o cadastro foi realizado com sucesso": true
+				},
+				{
+					"Status code is 200": true,
+					"Verificar se o cadastro foi realizado com sucesso": true
+				},
+				{
+					"Status code is 200": true,
+					"Verificar se o cadastro foi realizado com sucesso": true
+				},
+				{
+					"Status code is 200": true,
+					"Verificar se o cadastro foi realizado com sucesso": true
+				},
+				{
+					"Status code is 200": true,
+					"Verificar se o cadastro foi realizado com sucesso": true
+				},
+				{
+					"Status code is 200": true,
+					"Verificar se o cadastro foi realizado com sucesso": true
+				},
+				{
+					"Status code is 200": true,
+					"Verificar se o cadastro foi realizado com sucesso": true
+				},
+				{
+					"Status code is 200": true,
+					"Verificar se o cadastro foi realizado com sucesso": true
+				},
+				{
+					"Status code is 200": true,
+					"Verificar se o cadastro foi realizado com sucesso": true
+				},
+				{
+					"Status code is 200": true,
+					"Verificar se o cadastro foi realizado com sucesso": true
+				},
+				{
+					"Status code is 200": true,
+					"Verificar se o cadastro foi realizado com sucesso": true
+				}
+			]
+		},
+		{
+			"id": "dbd086ff-0385-41b5-b44c-bdaf6e81c20f",
+			"name": "Buscar Usuário por ID",
+			"time": 5,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Status code is 200": true,
+				"Verifica se o e-mail do novo usuário corresponde com a entrada": true
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 20,
+					"fail": 0
+				},
+				"Verifica se o e-mail do novo usuário corresponde com a entrada": {
+					"pass": 20,
+					"fail": 0
+				}
+			},
+			"times": [
+				5,
+				25,
+				9,
+				6,
+				7,
+				6,
+				6,
+				25,
+				7,
+				19,
+				7,
+				6,
+				5,
+				5,
+				6,
+				27,
+				137,
+				6,
+				5,
+				5
+			],
+			"allTests": [
+				{
+					"Status code is 200": true,
+					"Verifica se o e-mail do novo usuário corresponde com a entrada": true
+				},
+				{
+					"Status code is 200": true,
+					"Verifica se o e-mail do novo usuário corresponde com a entrada": true
+				},
+				{
+					"Status code is 200": true,
+					"Verifica se o e-mail do novo usuário corresponde com a entrada": true
+				},
+				{
+					"Status code is 200": true,
+					"Verifica se o e-mail do novo usuário corresponde com a entrada": true
+				},
+				{
+					"Status code is 200": true,
+					"Verifica se o e-mail do novo usuário corresponde com a entrada": true
+				},
+				{
+					"Status code is 200": true,
+					"Verifica se o e-mail do novo usuário corresponde com a entrada": true
+				},
+				{
+					"Status code is 200": true,
+					"Verifica se o e-mail do novo usuário corresponde com a entrada": true
+				},
+				{
+					"Status code is 200": true,
+					"Verifica se o e-mail do novo usuário corresponde com a entrada": true
+				},
+				{
+					"Status code is 200": true,
+					"Verifica se o e-mail do novo usuário corresponde com a entrada": true
+				},
+				{
+					"Status code is 200": true,
+					"Verifica se o e-mail do novo usuário corresponde com a entrada": true
+				},
+				{
+					"Status code is 200": true,
+					"Verifica se o e-mail do novo usuário corresponde com a entrada": true
+				},
+				{
+					"Status code is 200": true,
+					"Verifica se o e-mail do novo usuário corresponde com a entrada": true
+				},
+				{
+					"Status code is 200": true,
+					"Verifica se o e-mail do novo usuário corresponde com a entrada": true
+				},
+				{
+					"Status code is 200": true,
+					"Verifica se o e-mail do novo usuário corresponde com a entrada": true
+				},
+				{
+					"Status code is 200": true,
+					"Verifica se o e-mail do novo usuário corresponde com a entrada": true
+				},
+				{
+					"Status code is 200": true,
+					"Verifica se o e-mail do novo usuário corresponde com a entrada": true
+				},
+				{
+					"Status code is 200": true,
+					"Verifica se o e-mail do novo usuário corresponde com a entrada": true
+				},
+				{
+					"Status code is 200": true,
+					"Verifica se o e-mail do novo usuário corresponde com a entrada": true
+				},
+				{
+					"Status code is 200": true,
+					"Verifica se o e-mail do novo usuário corresponde com a entrada": true
+				},
+				{
+					"Status code is 200": true,
+					"Verifica se o e-mail do novo usuário corresponde com a entrada": true
+				}
+			]
+		},
+		{
+			"id": "98289f8c-7d66-47eb-a8e7-907a42ddcef9",
+			"name": "Cadastrar Usuário Existente",
+			"time": 5,
+			"responseCode": {
+				"code": 400,
+				"name": "Bad Request"
+			},
+			"tests": {
+				"Status code is 200": true,
+				"Verificar se o retorno é de usuário já existente": true
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 20,
+					"fail": 0
+				},
+				"Verificar se o retorno é de usuário já existente": {
+					"pass": 20,
+					"fail": 0
+				}
+			},
+			"times": [
+				8,
+				8,
+				6,
+				7,
+				6,
+				7,
+				6,
+				6,
+				6,
+				7,
+				6,
+				8,
+				5,
+				4,
+				9,
+				6,
+				6,
+				7,
+				6,
+				5
+			],
+			"allTests": [
+				{
+					"Status code is 200": true,
+					"Verificar se o retorno é de usuário já existente": true
+				},
+				{
+					"Status code is 200": true,
+					"Verificar se o retorno é de usuário já existente": true
+				},
+				{
+					"Status code is 200": true,
+					"Verificar se o retorno é de usuário já existente": true
+				},
+				{
+					"Status code is 200": true,
+					"Verificar se o retorno é de usuário já existente": true
+				},
+				{
+					"Status code is 200": true,
+					"Verificar se o retorno é de usuário já existente": true
+				},
+				{
+					"Status code is 200": true,
+					"Verificar se o retorno é de usuário já existente": true
+				},
+				{
+					"Status code is 200": true,
+					"Verificar se o retorno é de usuário já existente": true
+				},
+				{
+					"Status code is 200": true,
+					"Verificar se o retorno é de usuário já existente": true
+				},
+				{
+					"Status code is 200": true,
+					"Verificar se o retorno é de usuário já existente": true
+				},
+				{
+					"Status code is 200": true,
+					"Verificar se o retorno é de usuário já existente": true
+				},
+				{
+					"Status code is 200": true,
+					"Verificar se o retorno é de usuário já existente": true
+				},
+				{
+					"Status code is 200": true,
+					"Verificar se o retorno é de usuário já existente": true
+				},
+				{
+					"Status code is 200": true,
+					"Verificar se o retorno é de usuário já existente": true
+				},
+				{
+					"Status code is 200": true,
+					"Verificar se o retorno é de usuário já existente": true
+				},
+				{
+					"Status code is 200": true,
+					"Verificar se o retorno é de usuário já existente": true
+				},
+				{
+					"Status code is 200": true,
+					"Verificar se o retorno é de usuário já existente": true
+				},
+				{
+					"Status code is 200": true,
+					"Verificar se o retorno é de usuário já existente": true
+				},
+				{
+					"Status code is 200": true,
+					"Verificar se o retorno é de usuário já existente": true
+				},
+				{
+					"Status code is 200": true,
+					"Verificar se o retorno é de usuário já existente": true
+				},
+				{
+					"Status code is 200": true,
+					"Verificar se o retorno é de usuário já existente": true
+				}
+			]
+		},
+		{
+			"id": "aeaf27bf-b4da-498f-bf9d-0423d209a84f",
+			"name": "Editar Usuario",
+			"time": 7,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Status code is 200": true,
+				"Verifica se os dados do usuário foram alterados corretamente": true
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 20,
+					"fail": 0
+				},
+				"Verifica se os dados do usuário foram alterados corretamente": {
+					"pass": 20,
+					"fail": 0
+				}
+			},
+			"times": [
+				8,
+				11,
+				7,
+				14,
+				8,
+				34,
+				9,
+				8,
+				8,
+				11,
+				6,
+				6,
+				6,
+				7,
+				9,
+				7,
+				7,
+				7,
+				8,
+				7
+			],
+			"allTests": [
+				{
+					"Status code is 200": true,
+					"Verifica se os dados do usuário foram alterados corretamente": true
+				},
+				{
+					"Status code is 200": true,
+					"Verifica se os dados do usuário foram alterados corretamente": true
+				},
+				{
+					"Status code is 200": true,
+					"Verifica se os dados do usuário foram alterados corretamente": true
+				},
+				{
+					"Status code is 200": true,
+					"Verifica se os dados do usuário foram alterados corretamente": true
+				},
+				{
+					"Status code is 200": true,
+					"Verifica se os dados do usuário foram alterados corretamente": true
+				},
+				{
+					"Status code is 200": true,
+					"Verifica se os dados do usuário foram alterados corretamente": true
+				},
+				{
+					"Status code is 200": true,
+					"Verifica se os dados do usuário foram alterados corretamente": true
+				},
+				{
+					"Status code is 200": true,
+					"Verifica se os dados do usuário foram alterados corretamente": true
+				},
+				{
+					"Status code is 200": true,
+					"Verifica se os dados do usuário foram alterados corretamente": true
+				},
+				{
+					"Status code is 200": true,
+					"Verifica se os dados do usuário foram alterados corretamente": true
+				},
+				{
+					"Status code is 200": true,
+					"Verifica se os dados do usuário foram alterados corretamente": true
+				},
+				{
+					"Status code is 200": true,
+					"Verifica se os dados do usuário foram alterados corretamente": true
+				},
+				{
+					"Status code is 200": true,
+					"Verifica se os dados do usuário foram alterados corretamente": true
+				},
+				{
+					"Status code is 200": true,
+					"Verifica se os dados do usuário foram alterados corretamente": true
+				},
+				{
+					"Status code is 200": true,
+					"Verifica se os dados do usuário foram alterados corretamente": true
+				},
+				{
+					"Status code is 200": true,
+					"Verifica se os dados do usuário foram alterados corretamente": true
+				},
+				{
+					"Status code is 200": true,
+					"Verifica se os dados do usuário foram alterados corretamente": true
+				},
+				{
+					"Status code is 200": true,
+					"Verifica se os dados do usuário foram alterados corretamente": true
+				},
+				{
+					"Status code is 200": true,
+					"Verifica se os dados do usuário foram alterados corretamente": true
+				},
+				{
+					"Status code is 200": true,
+					"Verifica se os dados do usuário foram alterados corretamente": true
+				}
+			]
+		},
+		{
+			"id": "cb302224-70fb-46da-a669-b466d6dee06e",
+			"name": "Excluir Usuário Existente",
+			"time": 6,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Status code is 200": true,
+				"Verifica se o registro do usuário foi excluído corretamente": true
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 20,
+					"fail": 0
+				},
+				"Verifica se o registro do usuário foi excluído corretamente": {
+					"pass": 20,
+					"fail": 0
+				}
+			},
+			"times": [
+				9,
+				22,
+				6,
+				8,
+				8,
+				7,
+				10,
+				7,
+				8,
+				8,
+				7,
+				6,
+				6,
+				8,
+				6,
+				7,
+				7,
+				25,
+				7,
+				6
+			],
+			"allTests": [
+				{
+					"Status code is 200": true,
+					"Verifica se o registro do usuário foi excluído corretamente": true
+				},
+				{
+					"Status code is 200": true,
+					"Verifica se o registro do usuário foi excluído corretamente": true
+				},
+				{
+					"Status code is 200": true,
+					"Verifica se o registro do usuário foi excluído corretamente": true
+				},
+				{
+					"Status code is 200": true,
+					"Verifica se o registro do usuário foi excluído corretamente": true
+				},
+				{
+					"Status code is 200": true,
+					"Verifica se o registro do usuário foi excluído corretamente": true
+				},
+				{
+					"Status code is 200": true,
+					"Verifica se o registro do usuário foi excluído corretamente": true
+				},
+				{
+					"Status code is 200": true,
+					"Verifica se o registro do usuário foi excluído corretamente": true
+				},
+				{
+					"Status code is 200": true,
+					"Verifica se o registro do usuário foi excluído corretamente": true
+				},
+				{
+					"Status code is 200": true,
+					"Verifica se o registro do usuário foi excluído corretamente": true
+				},
+				{
+					"Status code is 200": true,
+					"Verifica se o registro do usuário foi excluído corretamente": true
+				},
+				{
+					"Status code is 200": true,
+					"Verifica se o registro do usuário foi excluído corretamente": true
+				},
+				{
+					"Status code is 200": true,
+					"Verifica se o registro do usuário foi excluído corretamente": true
+				},
+				{
+					"Status code is 200": true,
+					"Verifica se o registro do usuário foi excluído corretamente": true
+				},
+				{
+					"Status code is 200": true,
+					"Verifica se o registro do usuário foi excluído corretamente": true
+				},
+				{
+					"Status code is 200": true,
+					"Verifica se o registro do usuário foi excluído corretamente": true
+				},
+				{
+					"Status code is 200": true,
+					"Verifica se o registro do usuário foi excluído corretamente": true
+				},
+				{
+					"Status code is 200": true,
+					"Verifica se o registro do usuário foi excluído corretamente": true
+				},
+				{
+					"Status code is 200": true,
+					"Verifica se o registro do usuário foi excluído corretamente": true
+				},
+				{
+					"Status code is 200": true,
+					"Verifica se o registro do usuário foi excluído corretamente": true
+				},
+				{
+					"Status code is 200": true,
+					"Verifica se o registro do usuário foi excluído corretamente": true
+				}
+			]
+		},
+		{
+			"id": "f524eee3-a36f-4484-874a-c5778fc5607d",
+			"name": "Excluir Usuário Inexistente",
+			"time": 5,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Status code is 200": true,
+				"Verifica se o retorno é de nenhum registro encontrado para o ID informado": true
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 20,
+					"fail": 0
+				},
+				"Verifica se o retorno é de nenhum registro encontrado para o ID informado": {
+					"pass": 20,
+					"fail": 0
+				}
+			},
+			"times": [
+				8,
+				8,
+				6,
+				8,
+				6,
+				6,
+				7,
+				7,
+				5,
+				6,
+				6,
+				5,
+				5,
+				5,
+				5,
+				5,
+				8,
+				6,
+				7,
+				5
+			],
+			"allTests": [
+				{
+					"Status code is 200": true,
+					"Verifica se o retorno é de nenhum registro encontrado para o ID informado": true
+				},
+				{
+					"Status code is 200": true,
+					"Verifica se o retorno é de nenhum registro encontrado para o ID informado": true
+				},
+				{
+					"Status code is 200": true,
+					"Verifica se o retorno é de nenhum registro encontrado para o ID informado": true
+				},
+				{
+					"Status code is 200": true,
+					"Verifica se o retorno é de nenhum registro encontrado para o ID informado": true
+				},
+				{
+					"Status code is 200": true,
+					"Verifica se o retorno é de nenhum registro encontrado para o ID informado": true
+				},
+				{
+					"Status code is 200": true,
+					"Verifica se o retorno é de nenhum registro encontrado para o ID informado": true
+				},
+				{
+					"Status code is 200": true,
+					"Verifica se o retorno é de nenhum registro encontrado para o ID informado": true
+				},
+				{
+					"Status code is 200": true,
+					"Verifica se o retorno é de nenhum registro encontrado para o ID informado": true
+				},
+				{
+					"Status code is 200": true,
+					"Verifica se o retorno é de nenhum registro encontrado para o ID informado": true
+				},
+				{
+					"Status code is 200": true,
+					"Verifica se o retorno é de nenhum registro encontrado para o ID informado": true
+				},
+				{
+					"Status code is 200": true,
+					"Verifica se o retorno é de nenhum registro encontrado para o ID informado": true
+				},
+				{
+					"Status code is 200": true,
+					"Verifica se o retorno é de nenhum registro encontrado para o ID informado": true
+				},
+				{
+					"Status code is 200": true,
+					"Verifica se o retorno é de nenhum registro encontrado para o ID informado": true
+				},
+				{
+					"Status code is 200": true,
+					"Verifica se o retorno é de nenhum registro encontrado para o ID informado": true
+				},
+				{
+					"Status code is 200": true,
+					"Verifica se o retorno é de nenhum registro encontrado para o ID informado": true
+				},
+				{
+					"Status code is 200": true,
+					"Verifica se o retorno é de nenhum registro encontrado para o ID informado": true
+				},
+				{
+					"Status code is 200": true,
+					"Verifica se o retorno é de nenhum registro encontrado para o ID informado": true
+				},
+				{
+					"Status code is 200": true,
+					"Verifica se o retorno é de nenhum registro encontrado para o ID informado": true
+				},
+				{
+					"Status code is 200": true,
+					"Verifica se o retorno é de nenhum registro encontrado para o ID informado": true
+				},
+				{
+					"Status code is 200": true,
+					"Verifica se o retorno é de nenhum registro encontrado para o ID informado": true
+				}
+			]
+		}
+	],
+	"count": 20,
+	"totalTime": 1377,
+	"collection": {
+		"requests": [
+			{
+				"id": "64a6ca37-de93-4227-8652-971aac61589c",
+				"method": "POST"
+			},
+			{
+				"id": "1b75c8c0-a4ef-4ccd-80d2-7280d80ce1e4",
+				"method": "GET"
+			},
+			{
+				"id": "33251caa-4707-4e9f-9adf-8f00e7a28238",
+				"method": "POST"
+			},
+			{
+				"id": "dbd086ff-0385-41b5-b44c-bdaf6e81c20f",
+				"method": "GET"
+			},
+			{
+				"id": "98289f8c-7d66-47eb-a8e7-907a42ddcef9",
+				"method": "POST"
+			},
+			{
+				"id": "aeaf27bf-b4da-498f-bf9d-0423d209a84f",
+				"method": "PUT"
+			},
+			{
+				"id": "cb302224-70fb-46da-a669-b466d6dee06e",
+				"method": "DELETE"
+			},
+			{
+				"id": "f524eee3-a36f-4484-874a-c5778fc5607d",
+				"method": "DELETE"
+			}
+		]
+	}
+}
